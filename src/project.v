@@ -25,6 +25,7 @@ module tt_um_dog_BILBO (
     
     wire so;
     wire [7:0] y;
+    wire b1_not;
 
     // Connect BILBO outputs to Tiny Tapeout outputs
     assign uo_out[7] = so;    // Single output `so` connected to `uo_out[7]`
