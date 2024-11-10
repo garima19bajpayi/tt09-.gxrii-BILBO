@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+In this Verilog code, we implement a BILBO (Built-In Logic Block Observer) shift register with multiple stages, using a combination of logic gates (AND, XOR), D flip-flops (DFF), and multiplexers (MUX) for feedback and shifting operations. We include input and output paths for Tiny Tapeout and support asynchronous reset and clocked logic. The modules interact to store and shift data, providing internal feedback and driving outputs for observation.
 
 ## How to test
 
-Explain how to use your project
+To test this project, we would create a testbench that provides stimulus for the inputs (`ui_in`, `uio_in`, `clk`, `rst_n`) and checks the outputs (`uo_out`, `uio_out`, `uio_oe`). We would simulate the shifting and feedback behavior of the BILBO shift register, verifying that the data is properly shifted and the feedback logic functions correctly across all stages of the register.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+No external hardware required for this project.
